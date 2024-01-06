@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+</head>
+<style>
+    form{
+        border: 4px solid #f1f1f1;
+    }
+    .container{
+        padding: 20px;
+        background-color: #f1f1f1;
+    }
+    input[type=text], input[type=submit]{
+        width: 100%;
+        padding: 12px;
+        margin: 8px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    input[type=checkbox]{
+        margin-top: 16px;
+    }
+    input[type=submit]{
+        background-color: #04AA6D;
+        color: white;
+        border: none;
+    }
+    input[type=submit]:hover{
+        opacity:0.8;
+    }
+    button{
+        position: absolute;
+        top:50px;
+        right:15px;
+        background-color:cornsilk;
+        color:red;
+        font-size:20px;
+    }
+</style>
+<body>
+    <form action="action_Page.php">
+        <div class="container">
+            <h2>Subscribe to our Newsletter</h2>
+
+            <button type="button" class="btn btn-primary position-relative" btn-link class="richTradingREAD.html">
+                
+                <a href="richTradingREAD.html" class="btn btn-primary position-relative" role="button" aria-pressed="true">Newspapers</a>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden"></span>
+                </span>
+              </button>
+
+            <p>An email newsletter is a recurring email sent to subscribed contacts containing curated informational content from news articles to resources and tips. The goal is to provide ongoing value while surfacing important industry- or niche-related topics.</p>
+        </div>
+        <div class="container" style="background-color: white;">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+            <label>
+                <input type="checkbox" checked="checked" name="Subscribe" >Daily Newsletter
+            </label>
+        </div>
+        <div class="container">
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</body>
+</html>

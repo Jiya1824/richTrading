@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>richTRADING-Stock Exchange</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+        nav{
+            background-color:whitesmoke;
+            overflow:;
+        
+            font-size: 1em;
+
+        }
+        nav a{
+            padding: 15px;
+            
+            color:rgb(137,22,148);
+            font-size: 1.5em;
+            transition: width 2s,height 3s,border-radius 1s;
+        
+        }
+        nav a:hover{
+            color:black;
+            cursor: pointer;
+            font-size: 2.5em;
+            border-radius: 2px;
+
+        }
+        h1{
+            text-align: center;
+            color: rgb(137,22,148);
+            width:100%;
+            font-size:4em;
+            animation: color-change 1s infinite;
+           
+
+        }
+        @keyframes color-change {
+            0% {color: blue;}
+            50% {color: rgb(189, 45, 124);}
+            100% {color: rgb(66, 66, 94);}
+        }
+        div{
+            text-align: center;
+            color: rgb(1,1,5);
+            
+        }
+        img{padding: 10px;
+        display: inline;
+    }
+    .im{
+        width: 33.33%;
+    }
+    .column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.trust{
+    text-align: center;
+    color: rgb(137,22,148);
+    font-size: 3em;
+}
+button{
+    position:absolute;
+    top:120px;
+    right:16px;
+    letter-spacing:2px;
+    border:3px solid black;
+    border-radius:8px;
+    font-size:30px;
+    color:purple;
+
+
+}
+        
+        
+    </style>
+</head>
+<body></body>
+ <header>
+        <h1>richTRADING</h1>        
+    </header>
+    <nav>
+        <a href="richTradingABOUT.html">About</a>
+        <a href="richTradingLEARN.html">Learn </a>
+        <a href="richTradingMARKETS.html">Markets</a>
+        <a href="richTradingNEWSLETTER.html">Newsletter</a>
+        <a href="richTradingLOGINPAGE.html">Login </a>
+        <a href="richTradingSIGNUP.html">Sign Up</a>
+        
+        <a href="richTradingContactus.html">Contact Us</a>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <main>
+    </main>
+    <div>
+        <h2 style="color: rgb(137,22,148);"> The First idea-simple , but easy to overlook-is that<br> building wealth has little to do with your income or <br> investment returns , and lots to do with your savings <br> rate. </h2>
+    </div>
+    <div class="ytpyht">
+        <h3> </h3>
+    </div>
+
+
+    <button>Hello</button>
+    <script>
+        let helloBtn = document.querySelector('button');
+        helloBtn.addEventListener('click',inputMsg);
+
+        function inputMsg(){
+            let name = prompt('Please enter your name:');
+            helloBtn.textContent = 'Hello  '+name;
+        }
+    </script>
+
+    
+    
+    <video width="100%" height="auto" autoplay muted>
+        <source src="mainvideo123.mp4" type="video/mp4">
+    </video>
+    
+
+    
+    <div class="row">
+        
+          
+        
+        <div class="column">
+          <img src="image2.jpg.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="image3.jpg.png" alt="Mountains" style="width:100%" height="900px">
+        </div>
+      </div>
+      <div class="bitcoin">
+          <img src="image4.jpg.png" alt="">
+          <img src="image5.jpg.png" alt="">
+
+      </div>
+      <div class="trust">
+          Trusted by 1.5 Million+ Indians.<br>Create your portfolio on  <b>richTRADING</b>
+
+      </div>
+      <div class="play">
+          <img src="image6.jpg.png" alt="this is an image" width="20%">
+          
+
+      </div>
+    
+    
+
+
+</body>
+</html>

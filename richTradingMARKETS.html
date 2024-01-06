@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKET</title>
+    <style>
+        h1{
+            text-align: center;
+            text-decoration: bisque;
+            width:100%;
+            font-size:5em;
+            animation: color-change 3s infinite;
+        }
+        @keyframes color-change {
+            0% {color: rgb(228, 11, 11);}
+            50% {color: rgb(230, 211, 13);}
+            100% {color: rgb(13, 182, 171);}
+        }
+        .images{
+            padding: 10%;
+        }
+        #my_video{
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+       
+        
+    </style>
+</head>
+<body>    
+    <video autoplay muted loop id="my_video">
+        <source src="C:\Users\jiya1\OneDrive\Desktop\richTrading Project\stocks1.webm" type="video/mp4">
+    </video>
+
+    <h1> <marquee>MARKETS</marquee></h1>
+    <div class="images">
+    <img src="imageM1.jpg.png" alt="Couldn't Load" width="100%">
+    <img src="imageM2.jpg.png" alt="Couldn't Load" width="100%">
+    <img src="imageM3.jpg.png" alt="Couldn't Load" width="100%">
+    <img src="imageM4.jpg.png" alt="Couldn't Load" width="100%">
+    </div>
+</body>
+</html>
